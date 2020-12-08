@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tervetuloa sivulle!</title>
+
+    <link href=“Tyylitiedosto.css” rel=“stylesheet” type:="text/css">
+    </head>
+    <body>
+
+    <h1>Tervetuloa sivulle!</h1>
+    <h2>Täällä voit jättää palautteen</h2>
+
+
+<TABLE BORDER =1 WIDTH=50%>
+<CAPTION>Taulukko</CAPTION>
+<TR>
+<TD WIDTH=33%>1. rivi 1. Solu</TD>
+<TD WIDTH=33%>1. rivi 2. Solu</TD>
+<TD WIDTH=33%>1. rivi 3. Solu </TD>
+</TR> 
+
+<TD WIDTH=33%>2. rivi 1. Solu</TD>
+<TD WIDTH=33%>2. rivi 2. Solu</TD>
+<TD WIDTH=33%>2. rivi 3. Solu </TD>
+</TR>
+
+<TR>
+<TD WIDTH=33%>3. rivi 1. Solu</TD>
+<TD WIDTH=33%>3. rivi 2. solu</TD>
+<TD WIDTH=33%>2. rivi 3. Solu </TD>
+</TR>
+</TABLE>
+
+<form name="lomakke" method="post" action="mailto:paula.spelman@student.laurea.fi">
+
+	<h4>Lomake</h4>
+	Nimi:<input type="text" name="nimi" size="20" /><br>
+    Sukunimi: <input type="text surname="sukunimi" size="20" /><br>
+	Email:<input type="text" name="email" size="20" /><br>
+	<p>		
+	<textarea name="palaute" rows="4" cols="80">Olen sitä mieltä, että:</textarea>
+	<p>
+        <p>Haluan että minuun otetaan yhteyttä:<br>
+            <input type="radio" name="lista"
+                value="yes" />Kyllä<br>
+            <input type="radio" name="lista"
+                value="no" />Ei<br>
+
+        <select name="Tilaa uutiskirje">
+            <option selected value="Kyllä"></option>
+        
+
+
+    
+	<input type="submit" value="Lähetä" />
+	<input type="reset" value="Tyhjennä" />
+
+        </body>
+</form>
+</html>
